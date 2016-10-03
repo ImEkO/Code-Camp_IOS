@@ -1,0 +1,16 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+
+target 'pay' do
+use_frameworks!
+pod 'PayPal-iOS-SDK', '~> 2.11.1'
+end
+
+target 'payTests' do
+
+end
+
+target 'payUITests' do
+
+end
+
